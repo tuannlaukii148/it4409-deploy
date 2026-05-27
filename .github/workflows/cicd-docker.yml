@@ -34,7 +34,7 @@ jobs:
           context: .
           file: Dockerfile
           push: true
-          tags: lamdb/it4409-sample:staging
+          tags: tuannlaukii/it4409-deploy:staging
 
   deploy:
     name: Deploy to Server
